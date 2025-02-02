@@ -3,15 +3,9 @@ import './style.css'
 import Card from './product/card'
 import Nav from './Navbars/Nav1'
 function App() {
-
   return (
-
     <>
-      <div>
         <Nav />
-
-        
-
         <Card productname="T-Shirt"  color="Blue"/>
         <Card productname="T-Shirt"  color="Black"/>
         <Card productname="T-Shirt"  color="Red"/>
@@ -22,9 +16,8 @@ function App() {
         <Card productname="T-Shirt"  color="Mustard"/>
         <Card productname="T-Shirt"  color="Navy"/>
         <Card productname="T-Shirt" />
-
-      </div>
     </>
+
 
   )
 }
